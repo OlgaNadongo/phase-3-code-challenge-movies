@@ -24,4 +24,12 @@ puts "Creating roles..."
 # ***********************************************************
 # Create Roles Here
 
+Role.create(salary: 48000, character_name:"Jerry", movie_id:mean_girls.id, actor_id:lindsay_lohan.id )
+Role.create(salary: 18000, character_name:"Arya", movie_id:spice_world.id, actor_id:tina_fey.id )
+Role.create(salary: 20000, character_name:"Zia", movie_id:spice_world.id, actor_id:baby_spice.id )
+Role.create(salary: 40000, character_name:"Asha", movie_id:mean_girls.id, actor_id:ginger_spice.id )
+Role.create(salary: 16000, character_name:"Mia", movie_id:mean_girls.id, actor_id:scary_spice.id )
+Role.create(salary: 32000, character_name:"Alma", movie_id:spice_world.id, actor_id:sporty_spice.id )
+Role.create(salary: 9000, character_name:"Vera", movie_id:mean_girls.id, actor_id:posh_spice.id )
+
 puts "Seeding done!"
